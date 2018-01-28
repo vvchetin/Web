@@ -1,0 +1,92 @@
+.zag {font-family: Arial Unicode MS, serif;
+	font-size: 48px;/*נאחלונ רנטפעא*/
+	font-weight: 900;
+	color: #46474A;
+	letter-spacing:5px ;}
+
+.knop {font-family: Arial Unicode MS, serif;
+	font-size: 24px;/*נאחלונ רנטפעא*/
+	font-weight: 900;
+	color: #46474A;
+	letter-spacing: 2px ;}
+
+.knop1 {font-family: Arial Unicode MS, serif;
+	font-size: 24px;/*נאחלונ רנטפעא*/
+	font-weight: 900;
+	color: blue;
+	letter-spacing: 2px ;}
+
+.kol {font-family: Arial Unicode MS, serif;
+	font-size: 12px;/*נאחלונ רנטפעא*/
+	color: #46474A;
+	letter-spacing: 2px;
+	text-align:right;
+	margin-right: 35px
+	}
+
+.zag1 {font-family: Arial Unicode MS, serif;
+	font-size: 32px;/*נאחלונ רנטפעא*/
+	font-weight: 900;
+	color: #46474A;
+	letter-spacing: 2px ;
+	margin-top: 2%;
+	margin-left: 100px;
+	}
+	
+	
+.zag2 {font-family: Arial Unicode MS, serif;
+	font-size: 32px;/*נאחלונ רנטפעא*/
+	font-weight: 900;
+	color: #46474A;
+	letter-spacing: 2px ;
+	margin-top: 1%;
+	margin-left: 350px;
+	}
+
+.text {font-family: Arial Unicode MS, serif;
+	font-size: 20px;/*נאחלונ רנטפעא*/
+	color: #46474A;
+	text-align:justify;
+	margin: 5%;
+	}
+	
+	.text3 {font-family: Arial Unicode MS, serif;
+	font-size: 20px;/*נאחלונ רנטפעא*/
+	color: #46474A;
+	text-align:justify;
+
+	}
+	
+.text1 {font-family: Arial Unicode MS, serif;
+	font-size: 20px;/*נאחלונ רנטפעא*/
+	color: #46474A;
+	text-align:justify;
+	margin-left: 50px;
+	}
+
+A {text-decoration: none; /* Óבטנאוע ןמהקונךטגאםטו הכÿ ססûכמך */
+	color:#46474A;
+   	}
+
+a:active {
+	color:BLUE;
+	text-decoration:none
+	}
+
+a:visited {
+	color:#46474A;
+	text-decoration:none
+	}
+
+a:hover {
+	color:BLUE;
+	text-decoration: none
+	}
+	
+.search {
+    width: 150px; /* ?????? ? ???????? */
+   }
+   
+.search1 {
+    width: 400px; /* ?????? ? ???????? */
+   }
