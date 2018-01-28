@@ -1,4 +1,5 @@
-<?php_track_vars?><?php
+<?php_track_vars?>
+<?php
 include("connection.php");
 		$connection = mysql_connect($host, $user, $password);
 		mysql_select_db($database,$connection);
@@ -12,39 +13,37 @@ include("connection.php");
 		. "AND athlete.sport_id = sport.id and state.name='".$idsport."')");
 		}		
 		else {
-			echo "œÂÂÏÂÌÌ˚Â ÌÂ ‰Ó¯ÎË. œÓ‚Â¸ÚÂ ‚ÒÂ Â˘Â ‡Á.";
+			echo "–ü–µ—Ä–µ–º–µ–Ω–Ω—ã–µ –Ω–µ –¥–æ—à–ª–∏. –ü—Ä–æ–≤–µ—Ä—å—Ç–µ –≤—Å–µ –µ—â–µ —Ä–∞–∑.";
 		}
 		if ($myrow1 = mysql_fetch_array($result1)) {
 			echo "<table border=1 align=center>\n";
 			echo "<tr>
-				<td align=center><b>ÕŒÃ≈–</b></td>
-				<td align=center><b>‘»Œ</b></td>
-				<td align=center><b>œŒÀ</b></td>
-				<td align=center><b>À≈“</b></td>
-				<td align=center><b>¿ƒ–≈—</b></td>
-				<td align=center><b>–¿«–ﬂƒ</b></td>
-				<td align=center><b>—“–¿Õ¿</b></td>
-				<td align=center><b>—œŒ–“</b></td>
+				<td align=center><b>–ù–æ–º–µ—Ä</b></td>
+				<td align=center><b>–§–ò–û</b></td>
+				<td align=center><b>–ü–û–õ</b></td>
+				<td align=center><b>–õ–ï–¢</b></td>
+				<td align=center><b>–ê–î–†–ï–°</b></td>
+				<td align=center><b>–†–ê–ó–†–Ø–î</b></td>
+				<td align=center><b>–°–¢–†–ê–ù–ê</b></td>
+				<td align=center><b>–°–ü–û–†–¢</b></td>
 				</tr>\n";
 			do {
 			printf("<tr>
-			<td align=center>%s</td>
-			<td>%s</td>
-			<td>%s</td>
-			<td>%s</td>
-			<td>%s</td>
-			<td>%s</td>
-			<td>%s</td>
-			<td>%s</td>
+				<td align=center>%s</td>
+				<td>%s</td>
+				<td>%s</td>
+				<td>%s</td>
+				<td>%s</td>
+				<td>%s</td>
+				<td>%s</td>
+				<td>%s</td>
 			</tr>\n", $myrow1[`athlete`.'id'], $myrow1[`athlete`.'Name'], $myrow1[`athlete`.'gender'], $myrow1[`athlete`.'years'], $myrow1[`athlete`.'address'], $myrow1[`athlete`.'rank'], $myrow1[`state`.'StName'], $myrow1[`sport`.'spname']);
 			} while ($myrow1 = mysql_fetch_array($result1));
 			echo "</table>\n";
-			echo "<div align=center><a href='sp.php' ><input type='submit' name='SSS' value='— –€“‹'></a></div>";
+			echo "<div align=center><a href='sp.php' ><input type='submit' name='SSS' value='–°–ö–†–´–¢–¨'></a></div>";
 			} else {
 				echo "Sorry, no records were found!";	
 			}
 header('Location: sp.php');
-  exit;
-	
-	
+  exit;	
 ?>
