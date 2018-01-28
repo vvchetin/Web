@@ -49,8 +49,16 @@
 	text-align:justify; /*по ширине*/
 	margin: 5%; /*величину отступа со всех сторон*/
 	}
-	
-	.text3 {font-family: Arial Unicode MS, serif;
+
+.tex {font-family: Arial Unicode MS, serif;
+	font-size: 16px;/*נאחלונ רנטפעא*/
+	font-weight: 600;
+	color: red;
+	text-align:right;
+	margin-right: 100px;
+	}
+
+.text3 {font-family: Arial Unicode MS, serif;
 	font-size: 20px;/*ðàçìåð øðèôòà*/
 	color: #46474A;
 	text-align:justify;
