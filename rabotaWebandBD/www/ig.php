@@ -226,6 +226,11 @@ echo "<table border=1 align=center>\n";
 ?>
 		</td>
 	</tr>
+	<tr>
+		<td colspan="4">
+			<a href="obr.html" title="Связаться с нами!"><p class=tex>ОБРАТНАЯ СВЯЗЬ</p> </a>
+		</td>
+	</tr>
 </table>
 <table width=100% height=10% cellspacing="0">
 	<tr width=1% height=1% bgcolor=#d1d1d1  >
@@ -233,7 +238,7 @@ echo "<table border=1 align=center>\n";
 			<a href="index.php" title="Работа с базой!!!"><img  src="img\shest.png" width="50" height="50" ></a>
 		</td>
 		<td colspan="3" border="0">
-			<p class=kol>  Курсовая работа <br> по дисциплине Базы Данных <br> Тема: Олимпиада.<br> Выполнил Четин В.В.</p>
+			<p class=kol>  Контрольная работа <br> по дисциплине WEB технологии <br> Тема: Олимпиада.<br> Выполнил Четин В.В.</p>
 		</td>
 	</tr>
 </table>
