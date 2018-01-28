@@ -205,6 +205,11 @@
 			<td>
 			</td>
 		</tr>
+		<tr>
+			<td colspan="4">
+				<a href="obr.html" title="Связаться с нами!"><p class=tex>ОБРАТНАЯ СВЯЗЬ</p> </a>
+			</td>
+		</tr>
 	</table>
 	<table width=100% height=10% cellspacing="0">
 		<tr width=1% height=1% bgcolor=#d1d1d1  >
