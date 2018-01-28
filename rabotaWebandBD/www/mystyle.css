@@ -89,3 +89,22 @@ a:hover {
 .search1 {
     width: 400px; /* ?????? ? ???????? */
    }
+
+.textar{	font-size: 18px;
+			background-color: #fff;
+			border: 2px solid #A9A9A9;
+			padding: 2px 5px;
+			width: 70%;
+			height: 100px;
+		}
+.inp{	font-size: 18px;
+		border: 2px solid #A9A9A9;
+		width: 50%;	
+		height: 36px;
+		}
+
+.inp1{	font-size: 16px;
+		border: 2px solid #46474A ;
+		width: 20%;	
+		height: 30px;
+		}
