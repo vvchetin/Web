@@ -1,41 +1,41 @@
 .zag {font-family: Arial Unicode MS, serif;
-	font-size: 48px;/*������ ������*/
-	font-weight: 900;
-	color: #46474A;
-	letter-spacing:5px ;}
+	font-size: 48px;/*Размер шрифта*/
+	font-weight: 900; /*Насыщенность текста*/
+	color: #46474A; /*Цвет текста*/
+	letter-spacing:5px ;} /*интервал между символами в пределах элемента*/
 
 .knop {font-family: Arial Unicode MS, serif;
-	font-size: 24px;/*������ ������*/
+	font-size: 24px;/*ðàçìåð øðèôòà*/
 	font-weight: 900;
 	color: #46474A;
 	letter-spacing: 2px ;}
 
 .knop1 {font-family: Arial Unicode MS, serif;
-	font-size: 24px;/*������ ������*/
+	font-size: 24px;/*ðàçìåð øðèôòà*/
 	font-weight: 900;
 	color: blue;
 	letter-spacing: 2px ;}
 
 .kol {font-family: Arial Unicode MS, serif;
-	font-size: 12px;/*������ ������*/
+	font-size: 12px;/*ðàçìåð øðèôòà*/
 	color: #46474A;
 	letter-spacing: 2px;
-	text-align:right;
-	margin-right: 35px
+	text-align:right; /*горизонтальное выравнивание текста*/
+	margin-right: 35px /*устанавливает величину отступа от правого края*/
 	}
 
 .zag1 {font-family: Arial Unicode MS, serif;
-	font-size: 32px;/*������ ������*/
+	font-size: 32px;/*ðàçìåð øðèôòà*/
 	font-weight: 900;
 	color: #46474A;
 	letter-spacing: 2px ;
-	margin-top: 2%;
+	margin-top: 2%; /*величину отступа от верхнего края*/
 	margin-left: 100px;
 	}
 	
 	
 .zag2 {font-family: Arial Unicode MS, serif;
-	font-size: 32px;/*������ ������*/
+	font-size: 32px;/*ðàçìåð øðèôòà*/
 	font-weight: 900;
 	color: #46474A;
 	letter-spacing: 2px ;
@@ -44,27 +44,26 @@
 	}
 
 .text {font-family: Arial Unicode MS, serif;
-	font-size: 20px;/*������ ������*/
+	font-size: 20px;/*ðàçìåð øðèôòà*/
 	color: #46474A;
-	text-align:justify;
-	margin: 5%;
+	text-align:justify; /*по ширине*/
+	margin: 5%; /*величину отступа со всех сторон*/
 	}
 	
 	.text3 {font-family: Arial Unicode MS, serif;
-	font-size: 20px;/*������ ������*/
+	font-size: 20px;/*ðàçìåð øðèôòà*/
 	color: #46474A;
 	text-align:justify;
-
 	}
 	
 .text1 {font-family: Arial Unicode MS, serif;
-	font-size: 20px;/*������ ������*/
+	font-size: 20px;/*ðàçìåð øðèôòà*/
 	color: #46474A;
 	text-align:justify;
 	margin-left: 50px;
 	}
 
-A {text-decoration: none; /* ������� ������������� ��� ������ */
+A {text-decoration: none; /* оформление текста ввиде его подчеркивания */
 	color:#46474A;
    	}
 
@@ -84,7 +83,7 @@ a:hover {
 	}
 	
 .search {
-    width: 150px; /* ?????? ? ???????? */
+    width: 150px; /* ширина поискового окна */
    }
    
 .search1 {
